@@ -192,9 +192,8 @@ def player_stats(players_name)
     if key == :players
       value.each do |player|
          if players_name == player[:player_name]
-           #player.delete(:player_name)
            return player
-           #binding.pry
+           binding.pry
          end
         end
       end
