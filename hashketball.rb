@@ -201,7 +201,7 @@ def player_stats(players_name)
   end
 end
 
-def player
+def big_shoe_rebounds
   
   
 end
