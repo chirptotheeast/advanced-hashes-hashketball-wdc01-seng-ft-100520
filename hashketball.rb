@@ -191,9 +191,9 @@ def player_stats(players_name)
     team_info.each do |key, value|
     if key == players_name
       value.each do |player|
+          binding.pry
+        end
+      end
     end
-    binding.pry
   end
-  end
-end
 end
