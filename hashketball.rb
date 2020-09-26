@@ -193,7 +193,7 @@ def player_stats(players_name)
       value.each do |player|
          if players_name == player[:player_name]
            player.delete(:player_name)
-           return players
+           return player
            binding.pry
          end
         end
