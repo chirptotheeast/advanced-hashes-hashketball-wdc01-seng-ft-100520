@@ -191,7 +191,7 @@ def player_stats(players_name)
     team_info.each do |key, value|
     if key == :players
       value.each do |player|
-          binding.pry
+          player[:player_name]
         end
       end
     end
