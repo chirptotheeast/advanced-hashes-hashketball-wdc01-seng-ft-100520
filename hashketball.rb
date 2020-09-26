@@ -194,5 +194,6 @@ def player_stats(players_name)
     end
     binding.pry
   end
+  end
 end
 end
