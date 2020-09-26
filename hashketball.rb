@@ -185,3 +185,8 @@ def player_numbers(team_name)
   return jersey_arr
 end
 
+def player_stats(players_name)
+  
+  game_hash.each do |team, team_info|
+end
+end
