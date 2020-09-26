@@ -194,6 +194,7 @@ def player_stats(players_name)
          if players_name == player[:player_name]
            player.delete(:player_name)
            return players
+           binding.pry
          end
         end
       end
