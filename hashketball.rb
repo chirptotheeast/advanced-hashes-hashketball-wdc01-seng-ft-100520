@@ -177,7 +177,7 @@ def player_numbers(team_name)
         if key == :players
           value.each do |player|
             jersey_arr.push(player[:number])
-            return jersey_arr
+            #return jersey_arr
         end
       end
     end
