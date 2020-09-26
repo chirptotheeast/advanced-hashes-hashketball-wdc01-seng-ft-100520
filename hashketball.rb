@@ -190,6 +190,8 @@ def player_stats(players_name)
   game_hash.each do |team, team_info|
     team_info.each do |key, value|
     if key == players_name
+      value.each do |player|
+    end
     binding.pry
   end
 end
